@@ -15,7 +15,7 @@ Chrome 插件，防止重复打开相同地址的标签页。
 1. 打开 Chrome，地址栏输入 `chrome://extensions`
 2. 右上角开启 **开发者模式**
 3. 点击 **加载已解压的扩展程序**
-4. 选择本项目 `chrome-unique-tag` 目录
+4. 选择本项目 `chrome-unique-tab` 目录
 
 ## 使用
 
@@ -24,7 +24,7 @@ Chrome 插件，防止重复打开相同地址的标签页。
 ## 文件结构
 
 ```
-chrome-unique-tag/
+chrome-unique-tab/
 ├── manifest.json    # 插件配置
 ├── background.js    # 核心逻辑
 └── README.md
