@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Unique Tab",
+  "version": "1.0.0",
+  "description": "Switch to existing tab when the same URL is already open",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
